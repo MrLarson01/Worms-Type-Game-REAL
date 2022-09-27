@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Gun : MonoBehaviour
 {
+    [SerializeField] private GameObject player;
+    private int playerIndex;
     public float damage = 10f;
     public float range = 100f;
     public float fireRate = 15f;
@@ -12,12 +14,22 @@ public class Gun : MonoBehaviour
 
     private float nextTimeToFire = 0f;
 
+    private void Start()
+    {
+        playerIndex = player.GetComponent<ThirdPersonMovement>().GetIndex();
+
+
+    }
+
+
    
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1") && Time.time >= nextTimeToFire)
+        if (ActivePlayerManager.GetInstance().IsItMyTurn(playerIndex))
+        { 
+            if (Input.GetButtonDown("Fire1") && Time.time >= nextTimeToFire)
 
         {
             nextTimeToFire = Time.time + 1f / fireRate;
@@ -49,5 +61,6 @@ public class Gun : MonoBehaviour
             GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
             Destroy(impactGO, 2f);
         }
+       }
     }
 }

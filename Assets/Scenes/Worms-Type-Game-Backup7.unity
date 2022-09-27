@@ -1825,6 +1825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2e137dfae6a0834bb3967a5f67a856f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 379990803}
   damage: 10
   range: 100
   fireRate: 15
@@ -16301,6 +16302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2e137dfae6a0834bb3967a5f67a856f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 474426988}
   damage: 10
   range: 100
   fireRate: 15

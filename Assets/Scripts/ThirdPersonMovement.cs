@@ -60,4 +60,9 @@ public class ThirdPersonMovement : MonoBehaviour
 
         }
     }
+
+    public int GetIndex()
+    {
+        return playerIndex;
+    }
 }
