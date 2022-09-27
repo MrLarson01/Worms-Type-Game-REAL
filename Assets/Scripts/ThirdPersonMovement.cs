@@ -54,8 +54,8 @@ public class ThirdPersonMovement : MonoBehaviour
                 float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime); //Uses the direction to figure out how much the player should rotate on the Y axis.
                 transform.rotation = Quaternion.Euler(0f, angle, 0f); //Sets the rotation.
 
-                Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward; //Makes the player move in the direction that they are moving.
-                controller.Move(direction * speed * Time.deltaTime); //Determines how fast the player is going.
+                Vector3 moveDir = Quaternion.Euler(0f, angle, 0f) * Vector3.forward; //Makes the player move in the direction that they are moving.
+                controller.Move(moveDir.normalized * speed * Time.deltaTime); //Determines how fast the player is going.
             }
 
         }
