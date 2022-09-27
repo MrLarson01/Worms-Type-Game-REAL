@@ -7,7 +7,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public CharacterController controller;  //Reference for character controller
     public Transform cam; //Reference to the camera.
 
-
+    [SerializeField] private int playerIndex;
     public float speed = 6f;   //Speed variable.
     Vector3 velocity; //Velocity variable.
     bool isGrounded;  //Variable to use to see if the player is grounded or not.
@@ -24,35 +24,40 @@ public class ThirdPersonMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-
-        if(isGrounded && velocity.y < 0) 
+        if (ActivePlayerManager.GetInstance().IsItMyTurn(playerIndex))
         {
-            velocity.y = -2f;
-        }
 
-        float horizontal = Input.GetAxisRaw("Horizontal"); //Input check for horizontal inputs.
-        float vertical = Input.GetAxisRaw("Vertical"); //Input check for vertical inputs.
-        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized; //Stores direction.
+            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
-        if(Input.GetButtonDown("Jump") && isGrounded)  //Asks if the player has pressed space and if they're not in the air.
+            if (isGrounded && velocity.y < 0)
+            {
+                velocity.y = -2f;
+            }
 
-        {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-        }
+            float horizontal = Input.GetAxisRaw("Horizontal"); //Input check for horizontal inputs.
+            float vertical = Input.GetAxisRaw("Vertical"); //Input check for vertical inputs.
+            Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized; //Stores direction.
 
-        velocity.y += gravity * Time.deltaTime;
+            if (Input.GetButtonDown("Jump") && isGrounded)  //Asks if the player has pressed space and if they're not in the air.
 
-        controller.Move(velocity * Time.deltaTime);
+            {
+                velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            }
 
-        if(direction.magnitude >= 0.1f) //A check to see if the player is moving.
-        {
-            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y; //Points the player to the direction that they are moving.
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime); //Uses the direction to figure out how much the player should rotate on the Y axis.
-            transform.rotation = Quaternion.Euler(0f, angle, 0f); //Sets the rotation.
+            velocity.y += gravity * Time.deltaTime;
 
-            Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward; //Makes the player move in the direction that they are moving.
-            controller.Move(direction * speed * Time.deltaTime); //Determines how fast the player is going.
+            controller.Move(velocity * Time.deltaTime);
+
+            if (direction.magnitude >= 0.1f) //A check to see if the player is moving.
+            {
+                float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y; //Points the player to the direction that they are moving.
+                float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime); //Uses the direction to figure out how much the player should rotate on the Y axis.
+                transform.rotation = Quaternion.Euler(0f, angle, 0f); //Sets the rotation.
+
+                Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward; //Makes the player move in the direction that they are moving.
+                controller.Move(direction * speed * Time.deltaTime); //Determines how fast the player is going.
+            }
+
         }
     }
 }

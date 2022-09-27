@@ -1761,6 +1761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 379990806}
   cam: {fileID: 963194228}
+  playerIndex: 2
   speed: 6
   gravity: -9.81
   jumpHeight: 3
@@ -2039,6 +2040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 474426991}
   cam: {fileID: 963194228}
+  playerIndex: 1
   speed: 6
   gravity: -19.62
   jumpHeight: 3
@@ -8368,7 +8370,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1029964419}
-  m_LocalRotation: {x: 0.16274521, y: 0.000000018980849, z: -0.0000000031307812, w: 0.98666817}
+  m_LocalRotation: {x: 0.16274521, y: -0.000000018980845, z: 0.0000000031307805, w: 0.98666817}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
