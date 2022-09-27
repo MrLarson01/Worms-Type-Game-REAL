@@ -15,17 +15,18 @@ public class CamSwitch : MonoBehaviour
 
 
 
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(2))
-        {
-            cam1.SetActive(true);
-            cam2.SetActive(false);
-        }
-        if (Input.GetMouseButtonDown(1))
-        {
-            cam1.SetActive(false);
-            cam2.SetActive(true);
-        }
-    }
+  //  void Update()
+   // {
+     //   if (Input.GetMouseButtonDown(2))
+       // {
+         //   cam1.SetActive(true);
+           // cam2.SetActive(false);
+        //}
+        //if (Input.GetMouseButtonDown(1))
+        //{
+        //    cam1.SetActive(false);
+        //    cam2.SetActive(true);
+       // }
+  //  }
+      
 }
