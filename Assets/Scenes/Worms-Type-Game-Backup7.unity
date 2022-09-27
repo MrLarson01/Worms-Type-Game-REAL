@@ -1763,13 +1763,13 @@ MonoBehaviour:
   cam: {fileID: 963194228}
   playerIndex: 2
   speed: 6
-  gravity: -9.81
+  gravity: -19.81
   jumpHeight: 3
   groundCheck: {fileID: 1233925272}
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   turnSmoothTime: 0.1
 --- !u!143 &379990806
 CharacterController:
@@ -2454,7 +2454,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529874332}
-  m_LocalRotation: {x: 0.18061802, y: 0.000000008461699, z: -0.0000000015538916, w: 0.98355335}
+  m_LocalRotation: {x: 0.18061802, y: -0.000000008461695, z: 0.0000000015538909, w: 0.98355335}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14197,7 +14197,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464336775}
   m_LocalRotation: {x: 0.19847849, y: -0.000000029802322, z: 0.000000007450581, w: 0.9801053}
-  m_LocalPosition: {x: -0.0000004851672, y: 0, z: -0.000015474927}
+  m_LocalPosition: {x: -0.0000002695574, y: 0, z: -0.00003109304}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
