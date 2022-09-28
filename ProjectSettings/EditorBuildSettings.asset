@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Worms-Type-Game-Backup7.unity
+    guid: a2f6035bd19e1e34b8551e29f4dbe64c
   m_configObjects: {}
