@@ -24,6 +24,10 @@ public class UIManager : MonoBehaviour
     public void RestartLevel()
     {
         SceneManager.LoadScene(0);
+    }
 
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene(1);
     }
 }
