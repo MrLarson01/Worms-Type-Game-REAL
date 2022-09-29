@@ -8105,6 +8105,8 @@ MonoBehaviour:
   fpsCam: {fileID: 427486466}
   muzzleFlash: {fileID: 331757758}
   impactEffect: {fileID: 1161717643}
+  source: {fileID: 392708449}
+  clip: {fileID: 8300000, guid: af66162561d2eed40ad49268cab318bb, type: 3}
   animator: {fileID: 1219986753}
 --- !u!82 &392708449
 AudioSource:
@@ -8202,20 +8204,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &392708453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 392708446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9c0e9333cd39994f97a057cfd8a38f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 392708449}
-  clip: {fileID: 8300000, guid: af66162561d2eed40ad49268cab318bb, type: 3}
 --- !u!4 &421548663 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4334248379434994, guid: a114301c17a8f9d4e87a828e20f894a2, type: 3}
@@ -8718,20 +8706,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d0de870e1e071ff4e841c05aeec60610, type: 3}
   m_PrefabInstance: {fileID: 1325937280}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &494945635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 494945633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9c0e9333cd39994f97a057cfd8a38f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 494945637}
-  clip: {fileID: 8300000, guid: 3061c7b9b32d894478e4126ccce25ca3, type: 3}
 --- !u!114 &494945636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8753,6 +8727,8 @@ MonoBehaviour:
   fpsCam: {fileID: 427486466}
   muzzleFlash: {fileID: 995827064}
   impactEffect: {fileID: 1161717643}
+  source: {fileID: 494945637}
+  clip: {fileID: 8300000, guid: 3061c7b9b32d894478e4126ccce25ca3, type: 3}
   animator: {fileID: 1219986753}
 --- !u!82 &494945637
 AudioSource:
@@ -9330,7 +9306,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529874332}
   m_LocalRotation: {x: 0.016058052, y: -0.9796584, z: 0.17990279, w: 0.087443925}
-  m_LocalPosition: {x: 0.0000011920929, y: -0.0000019073486, z: 0.0000076293945}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12090,8 +12066,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 949907624}
-  m_LocalRotation: {x: 0.017645959, y: -0.976224, z: 0.19769251, w: 0.087137386}
-  m_LocalPosition: {x: 0.0000011920929, y: -0.0000019073486, z: 0.0000076293945}
+  m_LocalRotation: {x: 0.017645955, y: -0.976224, z: 0.19769251, w: 0.08713737}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17280,7 +17256,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1029964419}
   m_LocalRotation: {x: 0.014469049, y: -0.9827609, z: 0.16210075, w: 0.087720856}
-  m_LocalPosition: {x: 0.0000011920929, y: -0.0000019073486, z: 0.0000076293945}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22949,6 +22925,8 @@ MonoBehaviour:
   fpsCam: {fileID: 600944842}
   muzzleFlash: {fileID: 1125814313}
   impactEffect: {fileID: 1161717643}
+  source: {fileID: 1158930284}
+  clip: {fileID: 8300000, guid: af66162561d2eed40ad49268cab318bb, type: 3}
   animator: {fileID: 250901381}
 --- !u!82 &1158930284
 AudioSource:
@@ -23046,20 +23024,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1158930285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1158930277}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9c0e9333cd39994f97a057cfd8a38f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 1158930284}
-  clip: {fileID: 8300000, guid: af66162561d2eed40ad49268cab318bb, type: 3}
 --- !u!1 &1161717643 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 56bfc2f4b4a0c534c8ef3d0fd1124c44, type: 3}
@@ -34185,6 +34149,8 @@ MonoBehaviour:
   fpsCam: {fileID: 600944842}
   muzzleFlash: {fileID: 1417596750}
   impactEffect: {fileID: 1161717643}
+  source: {fileID: 2124673176}
+  clip: {fileID: 8300000, guid: 3061c7b9b32d894478e4126ccce25ca3, type: 3}
   animator: {fileID: 250901381}
 --- !u!82 &2124673176
 AudioSource:
@@ -34282,20 +34248,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2124673177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124673171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9c0e9333cd39994f97a057cfd8a38f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 2124673176}
-  clip: {fileID: 8300000, guid: 3061c7b9b32d894478e4126ccce25ca3, type: 3}
 --- !u!1 &2131685120 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
