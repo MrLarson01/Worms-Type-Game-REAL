@@ -20,6 +20,9 @@ public class Gun : MonoBehaviour
 
     private float nextTimeToFire = 0f;
 
+    public AudioSource source;
+    public AudioClip clip;
+
     public Animator animator;
 
     void Start()
@@ -58,7 +61,7 @@ public class Gun : MonoBehaviour
             {
                 nextTimeToFire = Time.time + 1f / fireRate;
                 Shoot();
-
+                source.PlayOneShot(clip);
             }
 
 
