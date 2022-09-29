@@ -31,7 +31,7 @@ public class ActivePlayerManager : MonoBehaviour
     {
         return instance;
     }
-
+    
     public void ChangeTurn()
     {
         if (currentPlayer == 1)
