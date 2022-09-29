@@ -2309,6 +2309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8da593336a02fc14f936676fd772f443, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 474426988}
   selectedWeapon: 0
 --- !u!95 &250901381
 Animator:
@@ -23507,6 +23508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8da593336a02fc14f936676fd772f443, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 379990803}
   selectedWeapon: 0
 --- !u!95 &1219986753
 Animator:
