@@ -22,6 +22,7 @@ public class Gun : MonoBehaviour
 
     public AudioSource source;
     public AudioClip clip;
+    public AudioClip clip2;
 
     public Animator animator;
 
@@ -72,6 +73,8 @@ public class Gun : MonoBehaviour
         {
             isReloading = true;
             Debug.Log("Reloading...");
+
+            source.PlayOneShot(clip2);
 
             animator.SetBool("Reloading", true);
 
