@@ -1831,7 +1831,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 188098478}
-  m_LocalRotation: {x: 0.16323948, y: -0.012736736, z: 0.0021075828, w: 0.986502}
+  m_LocalRotation: {x: 0.1632395, y: -0.012736678, z: 0.0021075755, w: 0.98650205}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8106,7 +8106,8 @@ MonoBehaviour:
   muzzleFlash: {fileID: 331757758}
   impactEffect: {fileID: 1161717643}
   source: {fileID: 392708449}
-  clip: {fileID: 8300000, guid: af66162561d2eed40ad49268cab318bb, type: 3}
+  clip: {fileID: 8300000, guid: 2203773368e4340d98c114f55c2dd7fd, type: 3}
+  clip2: {fileID: 8300000, guid: e0c70bed5c1a4443083a81de5648c7d5, type: 3}
   animator: {fileID: 1219986753}
 --- !u!82 &392708449
 AudioSource:
@@ -8729,6 +8730,7 @@ MonoBehaviour:
   impactEffect: {fileID: 1161717643}
   source: {fileID: 494945637}
   clip: {fileID: 8300000, guid: 3061c7b9b32d894478e4126ccce25ca3, type: 3}
+  clip2: {fileID: 8300000, guid: 9158afb6966d445db9caf1dccf7acbcc, type: 3}
   animator: {fileID: 1219986753}
 --- !u!82 &494945637
 AudioSource:
@@ -9305,7 +9307,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529874332}
-  m_LocalRotation: {x: 0.01605806, y: -0.9796584, z: 0.17990279, w: 0.08744396}
+  m_LocalRotation: {x: 0.016058052, y: -0.9796584, z: 0.17990279, w: 0.087443925}
   m_LocalPosition: {x: 0.0000011920929, y: -0.0000019073486, z: 0.0000076293945}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12066,7 +12068,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 949907624}
-  m_LocalRotation: {x: 0.017645953, y: -0.976224, z: 0.19769251, w: 0.087137364}
+  m_LocalRotation: {x: 0.017645959, y: -0.976224, z: 0.19769251, w: 0.087137386}
   m_LocalPosition: {x: 0.0000011920929, y: -0.0000019073486, z: 0.0000076293945}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17256,7 +17258,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1029964419}
   m_LocalRotation: {x: 0.014469049, y: -0.9827609, z: 0.16210075, w: 0.087720856}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.0000011920929, y: -0.0000019073486, z: 0.0000076293945}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -22926,7 +22928,8 @@ MonoBehaviour:
   muzzleFlash: {fileID: 1125814313}
   impactEffect: {fileID: 1161717643}
   source: {fileID: 1158930284}
-  clip: {fileID: 8300000, guid: af66162561d2eed40ad49268cab318bb, type: 3}
+  clip: {fileID: 8300000, guid: 2203773368e4340d98c114f55c2dd7fd, type: 3}
+  clip2: {fileID: 8300000, guid: e0c70bed5c1a4443083a81de5648c7d5, type: 3}
   animator: {fileID: 250901381}
 --- !u!82 &1158930284
 AudioSource:
@@ -34226,6 +34229,7 @@ MonoBehaviour:
   impactEffect: {fileID: 1161717643}
   source: {fileID: 2124673176}
   clip: {fileID: 8300000, guid: 3061c7b9b32d894478e4126ccce25ca3, type: 3}
+  clip2: {fileID: 8300000, guid: 9158afb6966d445db9caf1dccf7acbcc, type: 3}
   animator: {fileID: 250901381}
 --- !u!82 &2124673176
 AudioSource:
