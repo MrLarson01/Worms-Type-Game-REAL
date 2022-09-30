@@ -65,7 +65,7 @@ public class ActivePlayerManager : MonoBehaviour
         }
     }
 
-    private void Update()
+    public void Update()
     {
         currentTurnTime -= Time.deltaTime;
         if (currentTurnTime <= 0)
@@ -83,6 +83,11 @@ public class ActivePlayerManager : MonoBehaviour
     public int GetPlayerTurn()
     {
         return currentPlayer;
+    }
+
+    public void ResetTime()
+    {
+        currentTurnTime = turnTimeLimit;
     }
 
 }

@@ -86,6 +86,7 @@ public class Gun : MonoBehaviour
             yield return new WaitForSeconds(.25f);
 
             ActivePlayerManager.instance.ChangeTurn();
+            ActivePlayerManager.instance.ResetTime();
 
             currentAmmo = maxAmmo;
             isReloading = false;
