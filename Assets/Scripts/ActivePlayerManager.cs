@@ -9,7 +9,6 @@ public class ActivePlayerManager : MonoBehaviour
     public static ActivePlayerManager instance;
     [SerializeField] private GameObject camera1;
     [SerializeField] private GameObject camera2;
-    [SerializeField] private GameObject canvas;
     private float currentTurnTime = 10;
     [SerializeField] private float turnTimeLimit = 11f;
 
