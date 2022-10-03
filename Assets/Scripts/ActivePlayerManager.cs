@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ActivePlayerManager : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class ActivePlayerManager : MonoBehaviour
     [SerializeField] private GameObject camera2;
     private float currentTurnTime = 10;
     [SerializeField] private float turnTimeLimit = 11f;
+
+    [SerializeField] Text countdownText;
 
     private int currentPlayer;
 
@@ -72,6 +75,8 @@ public class ActivePlayerManager : MonoBehaviour
             ChangeTurn();
             currentTurnTime = turnTimeLimit;
         }
+
+        countdownText.text = currentTurnTime.ToString("0");   
     }
 
     public float GetCurrentTime()

@@ -230,6 +230,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1032224652}
+  - {fileID: 1061404151}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -407,7 +408,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 10374541}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Objects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -807,6 +808,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -977,6 +982,10 @@ PrefabInstance:
     - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_1x1_01P (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4903173184963024, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_RootOrder
@@ -1216,6 +1225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -1284,6 +1297,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -1380,6 +1397,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -1696,6 +1717,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -2047,6 +2072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -2157,6 +2186,10 @@ PrefabInstance:
     - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
@@ -2390,7 +2423,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 202205806}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SkyBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2425,6 +2458,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -2750,6 +2787,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -2999,6 +3040,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -3094,6 +3139,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -3254,6 +3303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -3331,6 +3384,10 @@ PrefabInstance:
     - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
@@ -3466,6 +3523,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273723437}
   m_CullTransparentMesh: 1
+--- !u!1 &289948187 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+  m_PrefabInstance: {fileID: 574718998}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &301050173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3588,6 +3650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -3656,6 +3722,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -3758,6 +3828,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -3850,6 +3924,10 @@ PrefabInstance:
     - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_5x5_01P (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4289126748202998, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_RootOrder
@@ -4002,6 +4080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_TreeDead_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839111652244008, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4882488892507408, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -4074,7 +4156,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 327712104}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Vehicles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9072,6 +9154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -9140,6 +9226,10 @@ PrefabInstance:
     - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_1x1_01P (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4903173184963024, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_RootOrder
@@ -9219,6 +9309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -9292,6 +9386,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -9370,6 +9468,10 @@ PrefabInstance:
     - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_1x1_01P (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4903173184963024, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_RootOrder
@@ -9565,7 +9667,7 @@ MonoBehaviour:
   controller: {fileID: 379990806}
   cam: {fileID: 963194228}
   playerIndex: 2
-  speed: 4.5
+  speed: 5
   gravity: -19.81
   jumpHeight: 3
   groundCheck: {fileID: 1233925272}
@@ -9650,6 +9752,10 @@ PrefabInstance:
     - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_5x5_01P (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4289126748202998, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_RootOrder
@@ -9740,7 +9846,7 @@ MonoBehaviour:
   damage: 5
   range: 50
   fireRate: 100
-  maxAmmo: 10
+  maxAmmo: 6
   reloadTime: 1
   fpsCam: {fileID: 427486466}
   muzzleFlash: {fileID: 331757758}
@@ -10127,6 +10233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -10223,6 +10333,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -10291,6 +10405,10 @@ PrefabInstance:
     - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
@@ -10404,6 +10522,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -10515,7 +10637,7 @@ MonoBehaviour:
   controller: {fileID: 474426991}
   cam: {fileID: 963194228}
   playerIndex: 1
-  speed: 4.5
+  speed: 5
   gravity: -19.62
   jumpHeight: 3
   groundCheck: {fileID: 845406507}
@@ -10557,6 +10679,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -10626,6 +10752,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -10704,6 +10834,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -10814,6 +10948,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -10882,6 +11020,10 @@ PrefabInstance:
     - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
@@ -10973,10 +11115,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 379990803}
-  damage: 10
+  damage: 15
   range: 100
   fireRate: 15
-  maxAmmo: 10
+  maxAmmo: 4
   reloadTime: 1
   fpsCam: {fileID: 427486466}
   muzzleFlash: {fileID: 995827064}
@@ -11091,6 +11233,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -11246,6 +11392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_TreeDead_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839111652244008, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4882488892507408, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -11309,6 +11459,103 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4882488892507408, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
   m_PrefabInstance: {fileID: 508163036}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &509670163
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1413822431}
+    m_Modifications:
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Name
+      value: SM_Generic_Small_Rocks_05 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 16.17399
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 21.325409
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15.10117
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -40.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7327509
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000059604638
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.68049705
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0000000074505797
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 85.765
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+--- !u!4 &509670164 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+  m_PrefabInstance: {fileID: 509670163}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &509670165 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+  m_PrefabInstance: {fileID: 509670163}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &509670166
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509670165}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 6055577e4f794be4fb975210c267ebef, type: 3}
 --- !u!1001 &511721550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11654,6 +11901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -11827,6 +12078,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -12006,6 +12261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -12064,80 +12323,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
---- !u!1001 &555256730
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1413822431}
-    m_Modifications:
-    - target: {fileID: 1265567056653560, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_Name
-      value: SM_Generic_Small_Rocks_03
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 13.370728
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 38.630695
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 13.370725
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -14.753189
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.78523827
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -43.26298
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7960459
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.049835697
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.60289097
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.018703533
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -2.416
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 74.276
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -14.868
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
---- !u!4 &555256731 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-  m_PrefabInstance: {fileID: 555256730}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &558052222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12148,6 +12333,10 @@ PrefabInstance:
     - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
@@ -12260,6 +12449,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_TreeDead_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839111652244008, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4882488892507408, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
       propertyPath: m_RootOrder
       value: 47
@@ -12333,6 +12526,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -12497,6 +12694,103 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4334248379434994, guid: a114301c17a8f9d4e87a828e20f894a2, type: 3}
   m_PrefabInstance: {fileID: 567985456}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &573376809
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1413822431}
+    m_Modifications:
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Name
+      value: SM_Generic_Small_Rocks_05 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 23.122877
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 50.75501
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 23.122877
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -44.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7327509
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000059604638
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.68049705
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0000000074505797
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 85.765
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+--- !u!4 &573376810 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+  m_PrefabInstance: {fileID: 573376809}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &573376811 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+  m_PrefabInstance: {fileID: 573376809}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &573376812
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573376811}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 6055577e4f794be4fb975210c267ebef, type: 3}
 --- !u!1001 &574001817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12507,6 +12801,10 @@ PrefabInstance:
     - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
@@ -12581,9 +12879,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_LocalScale.x
@@ -12644,6 +12946,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
   m_PrefabInstance: {fileID: 574718998}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &574719002
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289948187}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 6055577e4f794be4fb975210c267ebef, type: 3}
 --- !u!1001 &577327368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12654,6 +12970,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -12804,7 +13124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 582057405}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Broken bridge 1/2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12853,6 +13173,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6f8449a4663a4fd44b6140772d4f39f9, type: 3}
       propertyPath: m_Name
       value: WFX_SmokeGrenade AlphaBlend Black (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6f8449a4663a4fd44b6140772d4f39f9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 6f8449a4663a4fd44b6140772d4f39f9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6f8449a4663a4fd44b6140772d4f39f9, type: 3}
       propertyPath: m_RootOrder
@@ -12947,6 +13275,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -13044,6 +13376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -13139,6 +13475,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -13302,6 +13642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -13380,6 +13724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -13452,6 +13800,10 @@ PrefabInstance:
     - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
@@ -13613,6 +13965,10 @@ PrefabInstance:
     - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
@@ -13810,6 +14166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_TreeDead_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839111652244008, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4882488892507408, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -13884,6 +14244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -13951,7 +14315,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 642118392}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14132,6 +14496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_5x5_01P
       objectReference: {fileID: 0}
+    - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4289126748202998, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -14209,6 +14577,10 @@ PrefabInstance:
     - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
@@ -14288,6 +14660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -14365,6 +14741,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -14511,6 +14891,103 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4063223197671162, guid: e484c7ad7b1274b4c847940d3eb54d14, type: 3}
   m_PrefabInstance: {fileID: 703516132}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &705418613
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1413822431}
+    m_Modifications:
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Name
+      value: SM_Generic_Small_Rocks_05 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 23.367155
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 43.052254
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 26.501831
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -28.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7428269
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.07094873
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.66494995
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.031879492
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 3.613
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 83.925
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 8.164
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+--- !u!4 &705418614 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+  m_PrefabInstance: {fileID: 705418613}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &705418615 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+  m_PrefabInstance: {fileID: 705418613}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &705418616
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705418615}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 6055577e4f794be4fb975210c267ebef, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -14521,7 +14998,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Directional Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14615,6 +15092,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -14772,6 +15253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -14864,6 +15349,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -15070,6 +15559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -15148,6 +15641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_1x1_01P (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4903173184963024, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -15220,6 +15717,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -15317,6 +15818,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -15385,6 +15890,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -15463,6 +15972,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -15706,6 +16219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_1x1_01P (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4903173184963024, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -15783,6 +16300,10 @@ PrefabInstance:
     - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_1x1_01P (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4903173184963024, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_RootOrder
@@ -15862,6 +16383,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -15930,6 +16455,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -16003,6 +16532,10 @@ PrefabInstance:
     - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
@@ -16279,6 +16812,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -16388,6 +16925,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -16466,6 +17007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -16538,6 +17083,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -16769,7 +17318,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 854053463}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Broken bridge 1/2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16827,6 +17376,10 @@ PrefabInstance:
     - target: {fileID: 1839111652244008, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
       propertyPath: m_Name
       value: SM_Generic_TreeDead_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1839111652244008, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4882488892507408, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
       propertyPath: m_RootOrder
@@ -16901,6 +17454,10 @@ PrefabInstance:
     - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
@@ -16995,6 +17552,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -17072,6 +17633,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -17151,6 +17716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -17218,7 +17787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 891792022}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17253,6 +17822,10 @@ PrefabInstance:
     - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_5x5_01P (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4289126748202998, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_RootOrder
@@ -17321,7 +17894,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 902950413}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Broken bridge 1/2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17383,6 +17956,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -17480,6 +18057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -17557,6 +18138,10 @@ PrefabInstance:
     - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
@@ -17651,6 +18236,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_TreeDead_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839111652244008, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4882488892507408, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -17724,6 +18313,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -17802,6 +18395,10 @@ PrefabInstance:
     - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
@@ -17954,6 +18551,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -18022,6 +18623,10 @@ PrefabInstance:
     - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_1x1_01P (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4903173184963024, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_RootOrder
@@ -18178,6 +18783,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -18518,6 +19127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -18715,6 +19328,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -23606,6 +24223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -23678,6 +24299,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -23757,6 +24382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_5x5_01P (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4289126748202998, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -23825,6 +24454,10 @@ PrefabInstance:
     - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_5x5_01P (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4289126748202998, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_RootOrder
@@ -23976,6 +24609,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -24237,6 +24874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -24400,6 +25041,86 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4251109630112746, guid: 139b3e971e6648b459617b164e32d96d, type: 3}
   m_PrefabInstance: {fileID: 1058327738}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1061404150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1061404151}
+  - component: {fileID: 1061404153}
+  - component: {fileID: 1061404152}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1061404151
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061404150}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1242977}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 456.1}
+  m_SizeDelta: {x: 894.8826, y: 167.7905}
+  m_Pivot: {x: 0.5, y: 0.50000006}
+--- !u!114 &1061404152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061404150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 110
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 150
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 00
+--- !u!222 &1061404153
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061404150}
+  m_CullTransparentMesh: 1
 --- !u!1 &1062564745 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
@@ -24434,6 +25155,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -24507,6 +25232,10 @@ PrefabInstance:
     - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
@@ -24586,6 +25315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -24658,6 +25391,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -24746,6 +25483,10 @@ PrefabInstance:
     - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
@@ -24953,7 +25694,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1107077713}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enviroment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24976,7 +25717,6 @@ Transform:
   - {fileID: 1413822431}
   - {fileID: 1547591119}
   - {fileID: 202205806}
-  - {fileID: 1779294500}
   m_Father: {fileID: 1224716198}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24990,6 +25730,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -25086,6 +25830,10 @@ PrefabInstance:
     - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_1x1_01P (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4903173184963024, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_RootOrder
@@ -25188,6 +25936,10 @@ PrefabInstance:
     - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_5x5_01P (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4289126748202998, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_RootOrder
@@ -30099,6 +30851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -30177,6 +30933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -30245,6 +31005,10 @@ PrefabInstance:
     - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_1x1_01P (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4903173184963024, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_RootOrder
@@ -30323,6 +31087,10 @@ PrefabInstance:
     - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
@@ -30483,6 +31251,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -30650,7 +31422,7 @@ MonoBehaviour:
   damage: 5
   range: 50
   fireRate: 100
-  maxAmmo: 10
+  maxAmmo: 6
   reloadTime: 1
   fpsCam: {fileID: 600944842}
   muzzleFlash: {fileID: 1125814313}
@@ -30815,6 +31587,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -30916,6 +31692,10 @@ PrefabInstance:
     - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_1x1_01P
+      objectReference: {fileID: 0}
+    - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4903173184963024, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_RootOrder
@@ -31226,7 +32006,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1197041867}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Crates
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31374,6 +32154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -31452,6 +32236,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -31514,80 +32302,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 46d5b10645d19c34b9155bff076ee1cc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
---- !u!1001 &1217047967
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1413822431}
-    m_Modifications:
-    - target: {fileID: 1825960760633310, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
-      propertyPath: m_Name
-      value: SM_Generic_Small_Rocks_04
-      objectReference: {fileID: 0}
-    - target: {fileID: 4423381248071784, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4423381248071784, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 24.767683
-      objectReference: {fileID: 0}
-    - target: {fileID: 4423381248071784, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 29.993664
-      objectReference: {fileID: 0}
-    - target: {fileID: 4423381248071784, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 19.450556
-      objectReference: {fileID: 0}
-    - target: {fileID: 4423381248071784, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.86
-      objectReference: {fileID: 0}
-    - target: {fileID: 4423381248071784, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.51
-      objectReference: {fileID: 0}
-    - target: {fileID: 4423381248071784, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -26.87
-      objectReference: {fileID: 0}
-    - target: {fileID: 4423381248071784, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.6028917
-      objectReference: {fileID: 0}
-    - target: {fileID: 4423381248071784, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.08721563
-      objectReference: {fileID: 0}
-    - target: {fileID: 4423381248071784, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.79302317
-      objectReference: {fileID: 0}
-    - target: {fileID: 4423381248071784, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.00541085
-      objectReference: {fileID: 0}
-    - target: {fileID: 4423381248071784, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 5.542
-      objectReference: {fileID: 0}
-    - target: {fileID: 4423381248071784, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -105.918
-      objectReference: {fileID: 0}
-    - target: {fileID: 4423381248071784, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -8.368
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
---- !u!4 &1217047968 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4423381248071784, guid: 097c26aede8f73e41a32d546bd00e97f, type: 3}
-  m_PrefabInstance: {fileID: 1217047967}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1217835240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31598,6 +32312,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -31744,7 +32462,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1224716198}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: World
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31861,6 +32579,14 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 6f8449a4663a4fd44b6140772d4f39f9, type: 3}
       propertyPath: m_Name
       value: WFX_SmokeGrenade AlphaBlend Black (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6f8449a4663a4fd44b6140772d4f39f9, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 6f8449a4663a4fd44b6140772d4f39f9, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6f8449a4663a4fd44b6140772d4f39f9, type: 3}
       propertyPath: m_RootOrder
@@ -32113,6 +32839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -32205,6 +32935,10 @@ PrefabInstance:
     - target: {fileID: 1839111652244008, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
       propertyPath: m_Name
       value: SM_Generic_TreeDead_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1839111652244008, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4882488892507408, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
       propertyPath: m_RootOrder
@@ -32484,6 +33218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -32567,6 +33305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -32639,6 +33381,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -32735,6 +33481,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -32909,6 +33659,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_1x1_01P (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4903173184963024, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -32981,6 +33735,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -33142,6 +33900,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -33293,6 +34055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -33351,6 +34117,103 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+--- !u!1001 &1364900347
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1413822431}
+    m_Modifications:
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Name
+      value: SM_Generic_Small_Rocks_05 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 21.176014
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 21.176014
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 21.176014
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -28.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.95253557
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.08492449
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.24526456
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.15908857
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 4.804
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 29.736
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 20.24
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+--- !u!4 &1364900348 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+  m_PrefabInstance: {fileID: 1364900347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1364900349 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+  m_PrefabInstance: {fileID: 1364900347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1364900350
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364900349}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 6055577e4f794be4fb975210c267ebef, type: 3}
 --- !u!1001 &1365677849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33444,6 +34307,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -33521,6 +34388,10 @@ PrefabInstance:
     - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
@@ -33604,6 +34475,10 @@ PrefabInstance:
     - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
@@ -33915,6 +34790,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -34069,7 +34948,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1413822431}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34090,10 +34969,13 @@ Transform:
   m_Children:
   - {fileID: 1125990227}
   - {fileID: 2114155628}
-  - {fileID: 1217047968}
-  - {fileID: 555256731}
-  - {fileID: 1934050450}
   - {fileID: 574718999}
+  - {fileID: 1364900348}
+  - {fileID: 705418614}
+  - {fileID: 573376810}
+  - {fileID: 1775408659}
+  - {fileID: 509670164}
+  - {fileID: 1976783205}
   m_Father: {fileID: 1107077713}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -39083,7 +39965,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1458439896}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: House 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39202,6 +40084,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -39275,6 +40161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_5x5_01P (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4289126748202998, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -39338,6 +40228,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4289126748202998, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
   m_PrefabInstance: {fileID: 1465753482}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1469859559 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+  m_PrefabInstance: {fileID: 485230720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1469859562
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469859559}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 6055577e4f794be4fb975210c267ebef, type: 3}
 --- !u!1001 &1474798168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39348,6 +40257,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -39426,6 +40339,10 @@ PrefabInstance:
     - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
@@ -39578,6 +40495,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -39670,6 +40591,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -40033,6 +40958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_TreeDead_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839111652244008, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4882488892507408, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -40106,6 +41035,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -40248,6 +41181,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -40408,6 +41345,10 @@ PrefabInstance:
     - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
@@ -40578,7 +41519,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1547591119}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Trees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40658,6 +41599,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -40890,6 +41835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_5x5_01P (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4289126748202998, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -41120,6 +42069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -41274,6 +42227,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -41434,6 +42391,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -41662,6 +42623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -41739,6 +42704,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -41822,6 +42791,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -42089,6 +43062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -42166,6 +43143,10 @@ PrefabInstance:
     - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
@@ -42302,6 +43283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_TreeDead_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839111652244008, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4882488892507408, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -42376,6 +43361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -42448,6 +43437,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -42627,6 +43620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_TreeDead_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1839111652244008, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4882488892507408, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -42762,6 +43759,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_1x1_01P (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4903173184963024, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -42829,80 +43830,103 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4903173184963024, guid: af1ac26269830d347859c2c45ef72494, type: 3}
   m_PrefabInstance: {fileID: 1772552429}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1779294499
+--- !u!1001 &1775408658
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1107077713}
+    m_TransformParent: {fileID: 1413822431}
     m_Modifications:
-    - target: {fileID: 1265567056653560, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
-      value: SM_Generic_Small_Rocks_03 (1)
+      value: SM_Generic_Small_Rocks_05 (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 18.874142
+      value: 16.17399
       objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 35.55762
+      value: 35.502113
       objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 12.307083
+      value: 16.17399
       objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.58
+      value: -6.7
       objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.29
+      value: -1.37
       objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12.99
+      value: -45.98
       objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.98648536
+      value: 0.7327509
       objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.1537752
+      value: 0.000000059604638
       objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.024205547
+      value: 0.68049705
       objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.051127438
+      value: 0.0000000074505797
       objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -17.513
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -3.817
+      value: 85.765
       objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 6.522
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
---- !u!4 &1779294500 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+--- !u!4 &1775408659 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-  m_PrefabInstance: {fileID: 1779294499}
+  m_CorrespondingSourceObject: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+  m_PrefabInstance: {fileID: 1775408658}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1775408660 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+  m_PrefabInstance: {fileID: 1775408658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1775408661
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775408660}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 6055577e4f794be4fb975210c267ebef, type: 3}
 --- !u!1 &1780717163
 GameObject:
   m_ObjectHideFlags: 0
@@ -43018,6 +44042,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -43110,6 +44138,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -43213,6 +44245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -43281,6 +44317,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -43571,6 +44611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -43649,6 +44693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_TreeDead_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839111652244008, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4882488892507408, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -43711,6 +44759,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4882488892507408, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
   m_PrefabInstance: {fileID: 1813344051}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1814595226 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+  m_PrefabInstance: {fileID: 2114155627}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1822925231
 PrefabInstance:
@@ -44311,7 +45364,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1845766307}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bridge Parts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44368,6 +45421,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -44447,6 +45504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_5x5_01P (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4289126748202998, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -44520,6 +45581,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -44597,7 +45662,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1862422413}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Effects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44679,6 +45744,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -45020,80 +46089,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.9964996, y: 0.99649537, z: 0.9964958}
   m_Center: {x: 0, y: -0.00000016391277, z: 0}
---- !u!1001 &1934050449
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1413822431}
-    m_Modifications:
-    - target: {fileID: 1265567056653560, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_Name
-      value: SM_Generic_Small_Rocks_03 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 19.7138
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 51.23203
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 22.897366
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.18
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.78523827
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -40.29
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.28524336
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.05124518
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.95697594
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.0143962465
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 3.255
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 146.952
-      objectReference: {fileID: 0}
-    - target: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 5.164
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
---- !u!4 &1934050450 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4143243110822604, guid: 7f14e8833dc154b44b20de9e6f911ca0, type: 3}
-  m_PrefabInstance: {fileID: 1934050449}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1938852905 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
@@ -45128,6 +46123,10 @@ PrefabInstance:
     - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
@@ -45207,6 +46206,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -45285,6 +46288,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -45353,6 +46360,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -45530,6 +46541,103 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4334248379434994, guid: a114301c17a8f9d4e87a828e20f894a2, type: 3}
   m_PrefabInstance: {fileID: 1974359019}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1976783204
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1413822431}
+    m_Modifications:
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Name
+      value: SM_Generic_Small_Rocks_05 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 16.17399
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 21.325409
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15.10117
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -38.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7309874
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.05080148
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.67885995
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.047178432
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.585
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 85.806
+      objectReference: {fileID: 0}
+    - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -7.93
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+--- !u!4 &1976783205 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+  m_PrefabInstance: {fileID: 1976783204}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1976783206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+  m_PrefabInstance: {fileID: 1976783204}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1976783207
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976783206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 6055577e4f794be4fb975210c267ebef, type: 3}
 --- !u!1001 &1982135566
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45540,6 +46648,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -45787,6 +46899,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -46158,6 +47274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -46254,6 +47374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Column_2x3_01P (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1196428747069424, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4062619256373206, guid: a2e435ea5b0f606429670d1f3f1f1504, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -46336,6 +47460,10 @@ PrefabInstance:
     - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_1x1_01P
+      objectReference: {fileID: 0}
+    - target: {fileID: 1811686274572396, guid: af1ac26269830d347859c2c45ef72494, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4903173184963024, guid: af1ac26269830d347859c2c45ef72494, type: 3}
       propertyPath: m_RootOrder
@@ -46506,6 +47634,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -46819,6 +47951,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -46897,6 +48033,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_5x5_01P (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4289126748202998, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -46971,6 +48111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_PolygonPrototype_Buildings_Floor_5x5_01P
       objectReference: {fileID: 0}
+    - target: {fileID: 1449621192902058, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4289126748202998, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -47044,6 +48188,10 @@ PrefabInstance:
     - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
@@ -47123,6 +48271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -47196,6 +48348,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
@@ -47384,6 +48540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_TreeDead_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1839111652244008, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4882488892507408, guid: e30b3aeaaf8ec804198090a10eca14d8, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -47482,6 +48642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Tree_02 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1407229615668976, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4756262757966062, guid: 1ce022d65e1e7b84d9e5ae4a479c39ba, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -47575,6 +48739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -47653,6 +48821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Generic_Small_Rocks_05 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1875828765980602, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -47716,6 +48888,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
   m_PrefabInstance: {fileID: 2114155627}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &2114155631
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814595226}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 6055577e4f794be4fb975210c267ebef, type: 3}
 --- !u!4 &2117903933 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4289126748202998, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
@@ -47871,10 +49057,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 474426988}
-  damage: 10
+  damage: 15
   range: 100
   fireRate: 15
-  maxAmmo: 10
+  maxAmmo: 4
   reloadTime: 1
   fpsCam: {fileID: 600944842}
   muzzleFlash: {fileID: 1417596750}
@@ -48028,8 +49214,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera1: {fileID: 527433986}
   camera2: {fileID: 815036228}
-  canvas: {fileID: 0}
   turnTimeLimit: 11
+  countdownText: {fileID: 1061404152}
 --- !u!4 &2134984169
 Transform:
   m_ObjectHideFlags: 0
@@ -48055,6 +49241,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_Name
       value: SM_PolygonPrototype_Prop_Crate_03 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8dca5595cdaced544b3bca78ca84e8d8, type: 3}
       propertyPath: m_RootOrder
