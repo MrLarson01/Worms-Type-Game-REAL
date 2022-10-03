@@ -1,8 +1,10 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Gun : MonoBehaviour
 {
+    [SerializeField] Text ammoCountText;
     [SerializeField] private GameObject player;
     private int playerIndex;
     public float damage = 10f;
@@ -70,6 +72,8 @@ public class Gun : MonoBehaviour
 
 
         }
+        
+        ammoCountText.text = currentAmmo.ToString("0");
 
         IEnumerator Reload()
         {
@@ -91,7 +95,7 @@ public class Gun : MonoBehaviour
             currentAmmo = maxAmmo;
             isReloading = false;
 
-            
+
         }
 
 
