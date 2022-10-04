@@ -10604,6 +10604,7 @@ GameObject:
   - component: {fileID: 474426989}
   - component: {fileID: 474426991}
   - component: {fileID: 474426990}
+  - component: {fileID: 474426992}
   m_Layer: 0
   m_Name: Third Person Player 1
   m_TagString: Player
@@ -10669,6 +10670,21 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &474426992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474426988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ab289f3fc40eae4d902c3c2f1de7a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseLook: {fileID: 0}
+  playerMovement: {fileID: 0}
+  thirdPersonMovement: {fileID: 0}
 --- !u!4 &475837168 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4261006123550364, guid: 9c5ad4629ea7af7448f90e61ae1ea78d, type: 3}
@@ -24837,7 +24853,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1029964419}
   m_LocalRotation: {x: 0.01446905, y: -0.9827609, z: 0.16210076, w: 0.087720856}
-  m_LocalPosition: {x: 0.0000011920929, y: -0.0000019073486, z: 0.0000076293945}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
