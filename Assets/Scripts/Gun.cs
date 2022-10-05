@@ -98,7 +98,10 @@ public class Gun : MonoBehaviour
 
         }
 
-     
+       // if (Input.GetButtonDown("R"))
+        //{
+          //  Reload();
+        //}
 
 
 
