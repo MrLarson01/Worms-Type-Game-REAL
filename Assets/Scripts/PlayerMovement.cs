@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController controller;
-
+    [SerializeField] private int playerIndex;
     public float speed = 12f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
@@ -27,8 +27,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (ActivePlayerManager.GetInstance().IsItMyTurn(playerIndex))
+        {
 
-        isGrounded = Physics.CheckSphere(groundCheck.position, GroundDistance, groundMask);
+            isGrounded = Physics.CheckSphere(groundCheck.position, GroundDistance, groundMask);
 
         if(isGrounded && velocity.y < 0)
         {
@@ -50,5 +52,6 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+        }
     }
 }

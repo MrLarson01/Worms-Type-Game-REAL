@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class MouseLook : MonoBehaviour
 {
+    [SerializeField] private int playerIndex;
     float xRotation = 0f;
     public Vector2 turn;
     public float sensitivity = 50;
@@ -15,10 +18,16 @@ public class MouseLook : MonoBehaviour
     }
     void Update()
     {
-        turn.x += Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
-        turn.y = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
-        xRotation -= turn.y;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-        transform.localRotation = Quaternion.Euler(xRotation, turn.x, 0);
+        if (ActivePlayerManager.GetInstance().IsItMyTurn(playerIndex))
+        {
+            {
+                turn.x += Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
+                turn.y = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
+                xRotation -= turn.y;
+                xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+                transform.localRotation = Quaternion.Euler(xRotation, turn.x, 0);
+            }
+        }
     }
 }
+
