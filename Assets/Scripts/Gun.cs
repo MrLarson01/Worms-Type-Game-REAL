@@ -98,6 +98,8 @@ public class Gun : MonoBehaviour
 
         }
 
+     
+
 
 
         void Shoot()
