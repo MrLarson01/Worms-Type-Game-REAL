@@ -9,7 +9,7 @@ public class WeaponSwitching : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerIndex = player.GetComponent<ThirdPersonMovement>().GetIndex();
+        playerIndex = player.GetComponent<PlayerMovement>().GetIndex();
 
         SelectWeapon();
     }
