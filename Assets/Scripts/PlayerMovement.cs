@@ -54,4 +54,8 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
         }
     }
+    public int GetIndex()
+    {
+        return playerIndex;
+    }
 }

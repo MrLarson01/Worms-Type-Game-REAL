@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 
     [SerializeField] CinemachineVirtualCamera thirdPersonCam;
     [SerializeField] CinemachineVirtualCamera firstPersonCam;
+    [SerializeField] private int playerIndex;
 
     private void OnEnable()
     {
@@ -25,16 +26,23 @@ public class Player : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (ActivePlayerManager.GetInstance().IsItMyTurn(playerIndex))
         {
-            if(CameraSwitcher.IsActiveCamera(thirdPersonCam))
+            if (Input.GetMouseButtonDown(1))
             {
-                CameraSwitcher.SwitchCamera(firstPersonCam);
-            }
-            else if(CameraSwitcher.IsActiveCamera(firstPersonCam))
-            {
-                CameraSwitcher.SwitchCamera(thirdPersonCam);
+                if (CameraSwitcher.IsActiveCamera(thirdPersonCam))
+                {
+                    CameraSwitcher.SwitchCamera(firstPersonCam);
+                }
+                else if (CameraSwitcher.IsActiveCamera(firstPersonCam))
+                {
+                    CameraSwitcher.SwitchCamera(thirdPersonCam);
+                }
             }
         }
+    }
+    public int GetIndex()
+    {
+        return playerIndex;
     }
 }

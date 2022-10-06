@@ -30,7 +30,7 @@ public class Gun : MonoBehaviour
 
     void Start()
     {
-        playerIndex = player.GetComponent<ThirdPersonMovement>().GetIndex();
+        playerIndex = player.GetComponent<PlayerMovement>().GetIndex();
 
         
 
